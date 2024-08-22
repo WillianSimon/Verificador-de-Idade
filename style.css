@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #3f84d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    padding: 30px;
+    font-size: 2.5em;
+    
+}
+
+section{
+    background-color: white;
+    border-radius: 8px;
+    width: 450px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.56);
+}
+
+.paragrafoAnoNascimento{
+    padding: 20px;
+}
+
+.paragrafoSexo{
+    padding: 0px 20px 20px 20px;
+}
+
+#mas, #fem{
+    margin-left: 10px;
+}
+
+.botaoVerificar{
+    margin: 0px 20px 20px 20px;
+    padding: 2px 10px;
+}
+
+#res{
+    padding: 0px 20px 20px 20px;
+}
+footer > p{
+    color: white;
+    padding: 20px;
+    font-style: italic;
+}
